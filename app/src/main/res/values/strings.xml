@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShortcutsSample</string>
+    <string name="sc1_short">SC 1</string>
+    <string name="sc1_long">ShortCut 1</string>
+    <string name="sc_disabled">Shortcut disabled yo</string>
+    <string name="sc2_short">SC 12</string>
+    <string name="sc2_long">ShortCut 2</string>
+</resources>
