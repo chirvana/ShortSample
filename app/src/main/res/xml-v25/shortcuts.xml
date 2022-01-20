@@ -8,8 +8,13 @@
         android:icon="@drawable/spanner">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.example.shortcutssample"
-            android:targetClass="com.example.shortcutssample.MainActivity" />
+            android:targetClass="com.example.shortcutssample.MainActivity"
+            android:targetPackage="com.example.shortcutssample">
+            <extra
+                android:name="firstSc"
+                android:value="SC1Val" />
+        </intent>
+            />
         <!-- If your shortcut is associated with multiple intents, include them
              here. The last intent in the list determines what the user sees when
              they launch this shortcut. -->
